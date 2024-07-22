@@ -1,0 +1,2 @@
+# dp_amazon
+基于DrissionPage的亚马逊爬虫，获取不同榜单和关键词的商品图片
