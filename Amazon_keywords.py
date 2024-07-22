@@ -73,7 +73,7 @@ for name in keywords:
         # 使用XPath查找class为s-image的img标签的src属性
         # 注意：XPath中class属性需要使用@class并且可能需要处理空格（如果有的话）
         # 这里我们假设class值中没有空格
-        image_urls = tree.xpath('//img[@class="s-images"]/@src')
+        image_urls = tree.xpath('//img[@class="s-image"]/@src')
         # 进行图片保存,不同的关键词可以在桌面创建不一样的文件夹
         path = os.path.join(folder_path, name)  # 拼接保存路径
         # 对文件夹进行一个是否存在的判断
